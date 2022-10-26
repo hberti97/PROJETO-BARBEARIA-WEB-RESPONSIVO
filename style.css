@@ -1,28 +1,45 @@
 
 
 body{
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
     
 }
 
+
 #banner{
+    position: relative;
     width: 100%;
+    height: 400px;
+    margin: 0 auto;
 }
 
 .principal{
-    background: #CCCCCC;
+    color: aliceblue;
+    
     padding: 30px;
+    
 }
 
 .titulo-principal{
+    color: aliceblue;
     padding-left: 20px;
+    text-align: center;
+    font-size: 50px;
 }
 
 .titulo-centralizado{
+    font-size: 25px;
+    color: aliceblue;
     text-align: center
 }
 
 p {
     text-align: center; 
+    font-size: 20px;
 }
 
 #missao{
@@ -38,7 +55,7 @@ em strong{
 }
 
 .beneficios {
-    background: #ffffff;
+    
     padding: 20px;
 }
 
@@ -46,9 +63,16 @@ em strong{
 
 ul {
     display: inline-block;
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin:  0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
 }
 
 .imagembeneficios{
